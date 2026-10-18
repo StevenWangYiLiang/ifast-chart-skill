@@ -1,0 +1,43 @@
+{
+  "id": "ifast",
+  "name": "iFAST",
+  "version": "1.3.0",
+  "colors": {
+    "primary": "#1A2D49",
+    "accent": "#C8A84B",
+    "background": "#F5F7F9",
+    "surface": "#FFFFFF",
+    "text": "#1A2D49",
+    "mutedText": "#586B82",
+    "onPrimary": "#FFFFFF",
+    "onAccent": "#1A2D49",
+    "grid": "#E2E7ED",
+    "border": "#D5DDE6",
+    "benchmark": "#8B96A5",
+    "positive": "#477D70",
+    "negative": "#B76460"
+  },
+  "categorical": [
+    "#1A2D49",
+    "#C8A84B",
+    "#557C8A",
+    "#7E8E72",
+    "#9B7281",
+    "#8795A8"
+  ],
+  "sequential": [
+    "#EAF0F5",
+    "#BECEDC",
+    "#8EA8C0",
+    "#56799C",
+    "#1A2D49"
+  ],
+  "diverging": [
+    "#B76460",
+    "#E4BFBC",
+    "#F5F7F9",
+    "#BED7CF",
+    "#477D70"
+  ],
+  "provenance": "User-reference-derived palette; not an official brand specification."
+}

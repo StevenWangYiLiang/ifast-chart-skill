@@ -1,0 +1,69 @@
+{
+  "typography": {
+    "latin": "HarmonyOS Sans SC",
+    "cjk": "HarmonyOS Sans SC",
+    "light": "HarmonyOS Sans SC Light",
+    "bodyPt": 9,
+    "titlePt": 12,
+    "titleBold": true,
+    "webFallback": "Arial, sans-serif"
+  },
+  "chart": {
+    "defaultSize": "medium",
+    "sizesCm": {
+      "large": {
+        "width": 19,
+        "height": 9
+      },
+      "medium": {
+        "width": 13,
+        "height": 9
+      },
+      "small": {
+        "width": 9,
+        "height": 6
+      }
+    },
+    "timeAxisTick": "January 1 every year",
+    "axisTitle": "unit only, horizontal above corresponding value axis",
+    "largeNumberThreshold": 100000,
+    "preferredDisplayUnits": [
+      {
+        "label": "万",
+        "factor": 10000
+      },
+      {
+        "label": "百万",
+        "factor": 1000000
+      },
+      {
+        "label": "亿",
+        "factor": 100000000
+      },
+      {
+        "label": "万亿",
+        "factor": 1000000000000
+      }
+    ],
+    "xlsxSheets": "chart sheets with editable plotting data only",
+    "legendPosition": "bottom",
+    "axisScale": "data-adaptive",
+    "valueAxisIncludesZero": true,
+    "valueAxisLabelCount": {
+      "min": 4,
+      "max": 7,
+      "target": 6
+    },
+    "secondaryAxis": "use when units or magnitude require; label both units explicitly",
+    "actualLine": "solid",
+    "forecastLine": "dashed",
+    "forecastPreservesSeriesColor": true,
+    "forecastRequiresLabel": true,
+    "gridDirection": "horizontal",
+    "maxPreferredCategories": 6,
+    "shadow": false,
+    "threeDimensional": false,
+    "goldSmallTextOnWhite": false,
+    "positiveNegativeConvention": "positive-green-negative-red; override explicitly for market conventions"
+  }
+}

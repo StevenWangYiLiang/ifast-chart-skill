@@ -1,0 +1,39 @@
+{
+  "theme": "ifast",
+  "size": "medium",
+  "charts": [
+    {
+      "id": "trend", "sheet": "走势折线图", "type": "line", "title": "模拟指数与每股收益走势",
+      "x": {"type": "date", "values": ["2020-01-01", "2021-01-01", "2022-01-01", "2023-01-01", "2024-01-01", "2025-01-01"]},
+      "axes": [{"unit": "点"}, {"unit": "元"}],
+      "series": [
+        {"name": "模拟指数（左轴）", "axis": 0, "values": [3200, 3380, 3150, 3660, 3920, 4300]},
+        {"name": "每股收益（右轴）", "axis": 1, "values": [110, 119, 112, 135, 149, 168]}
+      ],
+      "source": {"label": "模拟数据，仅用于格式测试", "as_of": "不适用（模拟）", "simulated": true},
+      "note": "人为构造的示例，不代表真实市场、指数或预测。"
+    },
+    {
+      "id": "comparison", "sheet": "对比柱状图", "type": "column", "title": "模拟组合季度收益对比",
+      "x": {"type": "category", "values": ["一季度", "二季度", "三季度", "四季度"]},
+      "axes": [{"unit": "%", "percent_fraction": true}],
+      "series": [
+        {"name": "组合 A", "values": [0.042, -0.018, 0.065, 0.031]},
+        {"name": "组合 B", "values": [0.026, 0.012, 0.038, 0.024]}
+      ],
+      "source": {"label": "模拟数据，仅用于格式测试", "as_of": "不适用（模拟）", "simulated": true}
+    },
+    {
+      "id": "allocation", "sheet": "配置堆积图", "type": "stacked_column", "title": "模拟组合资产配置",
+      "x": {"type": "category", "values": ["稳健型", "均衡型", "进取型"]},
+      "axes": [{"unit": "%", "percent_fraction": true}],
+      "series": [
+        {"name": "股票", "values": [0.2, 0.45, 0.7]},
+        {"name": "债券", "values": [0.6, 0.35, 0.15]},
+        {"name": "黄金", "values": [0.1, 0.15, 0.1]},
+        {"name": "现金", "values": [0.1, 0.05, 0.05]}
+      ],
+      "source": {"label": "模拟数据，仅用于格式测试", "as_of": "不适用（模拟）", "simulated": true}
+    }
+  ]
+}
