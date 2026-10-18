@@ -1,4 +1,4 @@
 interface:
-  display_name: iFAST Charts
-  short_description: 按统一规范生成 HTML、SVG 与可编辑 Excel 图表，支持可替换主题
-  default_prompt: 使用 $ifast-charts 将提供的数据绘制为默认中号的 iFAST 图表，并输出 HTML、SVG 和包含绘图数据的 XLSX。
+  display_name: "iFAST Charts"
+  short_description: "按统一规范生成 HTML、SVG 与可编辑 Excel 图表，支持可替换主题"
+  default_prompt: "使用 $ifast-charts 将提供的数据绘制为默认中号的 iFAST 图表，并输出 HTML、SVG 和包含绘图数据的 XLSX。"
